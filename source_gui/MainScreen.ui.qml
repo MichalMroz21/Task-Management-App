@@ -17,6 +17,10 @@ Rectangle {
     height: Constants.height
     color: Constants.backgroundColor
 
+    //Color Palette from Figma Design System
+    property string primary50: "#EBFFE5"
+    property string primary100: "#D7FFCC"
+
     StackView {
         id: stackView
 
